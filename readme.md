@@ -8,6 +8,7 @@ This program creates multiple linked accounts with random names and profile pict
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [Contact ME](#contact-me)
 
@@ -19,7 +20,7 @@ This program creates multiple linked accounts with random names and profile pict
 3.  Set up an email account for verification purposes. Make sure that your account settings allow "less secure apps" to access your account.
 4.  Clone the repository and navigate to the directory:
 
-```git clone https://github.com/ShahrozAtiq/linkedin_mass_accounts_creator.git```
+```git clone https://github.com/ShahrozAtiq/linkedin-mass-accounts-creator.git```
 
 ```cd create_linked_accounts```
 
@@ -32,6 +33,11 @@ pythonCopy code
 ```python create_accounts.py```
 
 The bot will ask how many profiles you want to create. Once you enter a number, it will start creating the required number of linked profiles. It will generate random names using ```names.json``` and upload static profile pictures. It will then perform phone verification using SMS-Activate and email verification using SMTP. After verification, it will follow random companies, connect with random profiles, send messages, and update bio and profile info.
+
+## Demo
+
+[![Watch demo](https://raw.githubusercontent.com/ShahrozAtiq/linkedin-mass-accounts-creator/master/Screenshot%20(61).png?token=GHSAT0AAAAAACA3ZHW6XDGLNBPN754MMRV6ZBIGVSQ)](https://www.dropbox.com/s/embi4kq3rg2unvs/demo.mp4?dl=0)
+
 
 ## Technologies Used 
 
